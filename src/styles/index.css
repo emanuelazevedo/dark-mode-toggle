@@ -1,0 +1,18 @@
+@import "light-mode.css";
+@import "dark-mode.css";
+
+html,
+#root {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+}
+
+nav {
+    background-color: var(--dark-background);
+    color: var(--light-text);
+}
+
+.main-container {
+    background-color: var(--light-background);
+}
+
