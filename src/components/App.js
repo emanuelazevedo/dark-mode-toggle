@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import "../styles/index.css"
 import { keepTheme } from '../utils/themes'
-import {Toggle} from './Toggle'
+import {Header} from './Header'
 
 function App() {
 
@@ -11,9 +11,11 @@ function App() {
     })
 
     return (
-    <div className="main-container">
-        <Toggle />
-        Hello there
+    <div className="">
+        <Header />
+        <div className="container-fluid main-container">
+            hello
+        </div>
     </div>
   );
 }
