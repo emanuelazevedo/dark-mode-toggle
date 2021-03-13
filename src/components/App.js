@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import "../styles/index.css"
 import { keepTheme } from '../utils/themes'
 import {Header} from './Header'
+import {Card} from './Card'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
     <div className="">
         <Header />
         <div className="container-fluid main-container">
-            hello
+            <Card />
         </div>
     </div>
   );
